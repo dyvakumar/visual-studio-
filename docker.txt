@@ -1,0 +1,4 @@
+before docker : whole task was developed on one server/platform which is very large in size and main problem was finding bugs and deploy it and making updates to it
+after docker: by using dockerization we will devide the whole task into mini tasks and we combine them at one point of time and use continous integration and continous deployments technology to deploy it
+each mini task will be developed in a isolated environment called docker image
+

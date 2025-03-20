@@ -1,0 +1,166 @@
+name: chikkala dyva kumar # key and value are seperated by a colon
+age: 32 # after colon there must be a single space before value
+profession: Devops engineer 
+address: Hyderabad
+Location: lingumpally
+wife: Durga
+son: Bhargav Tej
+village_name: Tanuku #if two words are written in key side then we must follow a snake rule i.e best practices for yaml 
+Job_role: Devops engineer 
+
+
+name: myapp
+application_name: cloud app
+application_status: working fine
+tool_list: [terraform, kubernetes, prometheus, grafana, azure]
+description: |
+  i am learning yaml 
+  i am going to use all of this knowledge to become expert in yaml
+
+
+  # basic list method in yaml
+kubernetes_objects:
+  - deployment
+  - replica set
+  - pod
+  - deamonset
+  - statefulset
+  - default 
+file_system_heirarchy:
+  - etc
+  - root 
+  - bin
+  - sbin
+  - var
+  - lib
+  - home
+  - 
+
+# this is for practicing the basic listing 
+# keys should be lower case as a best practice
+# keys should not start with numbers but can end with numbers
+# keys should not have any spaces instead they need to be seperated with either _ or -
+# keys should be meaningful and more clear . duplicates keys overwrites 
+# key should ends with colon 
+
+# keys can be lower case or upper case but must be lower case for boolean (true, false)
+# single quotes or double quotes can be used for strings 
+# - can only be used for listing 
+# one single space must be there after colon 
+# use 2 space indentation for list and third indentation must be hyphen and space after for value 
+
+career: Devops 
+candidate: "chikkala dyva kumar"
+age: 31
+location: Hyderabad
+qualification: graduate
+expeirence: 7 years
+skills: 
+  - terraform
+  - kubernetes
+  - docker
+  - linux
+  - git
+  - bitbucket
+  - jenkins
+  - aws
+  - azure
+  - jira
+  - conflunce
+  - iris
+  - service now
+list_of_topics: 
+  kubernetes
+      - pod 
+      - replicaset 
+      - deployment
+      - statefulset 
+      - deamonset
+      - namespaces 
+      - networking
+      - volumes
+      - monitoring 
+      - port forwarding
+      - autoscalling 
+      - nodes 
+  linux: 
+      - file system file_system_heirarchy
+      - user accounts 
+      - root 
+      - file permissions
+      - access 
+      - owners & groups
+      - networking 
+      - "boot methods"
+  terraform: 
+      - provider 
+      - statefile
+      - module 
+      - backend
+  jenkins: 
+      - gui
+      - system settings
+      - global settings
+      - pipeline configurations
+      - backup and recovery 
+      - master slave  
+
+
+
+name: chikkala dyvakumar
+age: 32
+location: Hyderabad
+organization: ltimindtree
+experience: 7 years
+domain: cloud
+devops_tools: 
+  - linux
+  - git
+  - docker
+  - kubernetes
+  - jenkins
+  - terraform
+  - ansible
+  - chef
+  - confluence
+  - jira
+  - iris
+  - bitbucket
+  - jfrog 
+  - vault
+preferred_location: Hyderabad
+current_working_shift: B
+
+
+books:
+  - title: "The Devops Handbook"
+    authors: 
+      - name: Gene kim
+      - name: Jez Humble
+    topics: 
+      - Devops
+      - Automation
+  - title: "kubernetes up & Running"
+    authors: 
+      - name: kelsey Hightower
+      - name: Brendan burns
+    topics:
+      - kubernetes
+      - containers 
+
+apiversion: apps/v1
+kind: Deployment
+metadata: 
+  name: my-app
+
+key_rules:
+# key must be unique it should not be repeated
+# key can be uppercase but lower case is the best practice
+# key must not start with a number but can have a number in any where 
+# key must not contains any special charector other _ and - 
+# do not use space between the words if key has large string
+# use snake case which is _ between two words in a key for eg: dyva_kumar 
+# key always ends with :
+# duplicate keys must be avoided other wise it will be overwritten
+# double quotes can be used 
+# dot notation also used 
